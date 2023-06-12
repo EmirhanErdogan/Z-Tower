@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d32303a1e24704a98df77be46e2b50, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  Levels:
+  - {fileID: 11400000, guid: c9685c58189ec6f49b4ce7317a930a57, type: 2}
+  - {fileID: 11400000, guid: b421fff878cd4194fa5a2139a2aedba6, type: 2}
+  - {fileID: 11400000, guid: 424e5038f07241f4a977d7820acd55ee, type: 2}
+  BulletDestroyTime: 30
+  BulletPrefab: {fileID: 1778622288564108335, guid: 785decbdc316de04cb9f396a827f3664,
+    type: 3}
+  BombPrefab: {fileID: 1303058649154039992, guid: 05b06150cb2e7894b8c53a604768d830,
+    type: 3}
+  PlayerBombPrefab: {fileID: 3082013089550311243, guid: e34f6ac4d9512c84eb09b1af57b5acba,
+    type: 3}
+  EnemysPrefab:
+  - {fileID: 8836701990911647441, guid: bd07e5149cd73fe4a8bde8762eb9cc7b, type: 3}
+  - {fileID: 4019364969653870597, guid: b962fc6b1da715b44bc0dc8e5e3e6a7c, type: 3}
+  - {fileID: 6463528414201852778, guid: a4c3f5aa277aa20468b3311eb84941d3, type: 3}
+  - {fileID: 4161185995007353892, guid: 851e7ba0d7c0a7946b77bcafc4fecfa5, type: 3}
+  - {fileID: 8876198618056162059, guid: 9376208f58f6b2848b82ebaba051b07f, type: 3}
+  - {fileID: 2384110630056059164, guid: 823a0da3f6fb34b47b058af813bf225a, type: 3}
+  UnselectedColor: {r: 0.48235294, g: 0.48235294, b: 0.48235294, a: 1}
